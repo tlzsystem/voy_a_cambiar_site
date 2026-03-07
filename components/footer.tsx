@@ -17,7 +17,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm text-background/70">
-              Club de fútbol amateur con pasión por el deporte y el juego limpio desde 2015.
+              Club de fútbol amateur con pasión por el deporte y el juego limpio desde 2026.
             </p>
           </div>
 
@@ -101,7 +101,9 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-background/10 pt-8 text-center text-sm text-background/50">
-          <p>© {new Date().getFullYear()} Voy A Cambiar FC. Todos los derechos reservados. Desarrollado por Samuel Toloza</p>
+          <p>© {new Date().getFullYear()} Voy A Cambiar FC. Todos los derechos reservados. Desarrollado por <a href="https://www.samueltoloza.cl" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+            Samuel Toloza
+          </a></p>
         </div>
       </div>
     </footer>
