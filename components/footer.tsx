@@ -22,7 +22,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm text-background/70">
-              Club de fútbol amateur con pasión por el deporte y el juego limpio desde 2015.
+              Club de fútbol amateur con pasión por el deporte y el juego limpio desde 2025.
             </p>
           </div>
 
@@ -59,15 +59,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-background/70">
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span>Campo Municipal, Ciudad</span>
+                <span>Puente Alto, Chile</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>info@voyacambiarfc.com</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-primary" />
-                <span>+34 123 456 789</span>
+                <span>contacto@voyacambiar.cl</span>
               </li>
             </ul>
           </div>
@@ -77,7 +73,7 @@ export function Footer() {
             <h3 className="mb-4 font-[family-name:var(--font-bebas)] text-lg font-semibold">Síguenos</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/voyacambiarfc"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-background/10 transition-colors hover:bg-primary"
                 aria-label="Facebook"
               >
@@ -86,7 +82,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/voy_a_cambiar_f.c/"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-background/10 transition-colors hover:bg-primary"
                 aria-label="Instagram"
               >
@@ -97,18 +93,20 @@ export function Footer() {
               <a
                 href="#"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-background/10 transition-colors hover:bg-primary"
-                aria-label="Twitter"
+                aria-label="TikTok"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
+                  <path stroke="#000000" strokeLinejoin="round" d="M16 1.5h-3.5V16c0 1.5 -1.5 3 -3 3s-3 -0.5 -3 -3c0 -2 1.899 -3.339 3.5 -3V9.5c-6.12 0 -7 5 -7 6.5s0.977 6.5 6.5 6.5c4.522 0 6.5 -3.5 6.5 -6v-8c1.146 1.018 2.922 1.357 5 1.5V6.5c-3.017 0 -5 -2.654 -5 -5Z" stroke-width="1"></path>
+                  </svg>
               </a>
             </div>
           </div>
         </div>
 
         <div className="mt-12 border-t border-background/10 pt-8 text-center text-sm text-background/50">
-          <p>© {new Date().getFullYear()} Voy A Cambiar FC. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Voy A Cambiar FC. Todos los derechos reservados. Desarrollado por <a href="https://www.samueltoloza.cl" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+            Samuel Toloza
+          </a></p>
         </div>
       </div>
     </footer>
