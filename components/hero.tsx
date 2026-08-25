@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 import { CalendarPlus } from "lucide-react"
 
 export function Hero() {
@@ -44,11 +45,12 @@ export function Hero() {
               Agendar Amistoso
             </Button>
             <Button
+              asChild
               size="lg"
               variant="outline"
               className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10"
             >
-              Ver Calendario
+              <Link href="/#calendario">Ver Calendario</Link>
             </Button>
           </div>
         </div>
