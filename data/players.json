@@ -1,0 +1,14 @@
+[
+  {"id":1,"name":"Juan Pérez","number":1,"position":"porteros","role":"Portero"},
+  {"id":2,"name":"Miguel Sánchez","number":13,"position":"porteros","role":"Portero"},
+  {"id":3,"name":"David López","number":2,"position":"defensas","role":"Lateral Derecho"},
+  {"id":4,"name":"Roberto Díaz","number":3,"position":"defensas","role":"Central"},
+  {"id":5,"name":"Fernando Gil","number":4,"position":"defensas","role":"Central"},
+  {"id":6,"name":"Pablo Ruiz","number":5,"position":"defensas","role":"Lateral Izquierdo"},
+  {"id":7,"name":"Andrés Torres","number":6,"position":"centrocampistas","role":"Mediocentro"},
+  {"id":8,"name":"Luis Moreno","number":8,"position":"centrocampistas","role":"Mediocentro"},
+  {"id":9,"name":"Sergio Núñez","number":10,"position":"centrocampistas","role":"Mediapunta"},
+  {"id":10,"name":"Carlos García","number":7,"position":"delanteros","role":"Extremo Derecho"},
+  {"id":11,"name":"Javier Martínez","number":9,"position":"delanteros","role":"Delantero Centro"},
+  {"id":12,"name":"Alejandro Vega","number":11,"position":"delanteros","role":"Extremo Izquierdo"}
+]

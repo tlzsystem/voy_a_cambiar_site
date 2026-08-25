@@ -2,12 +2,13 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Trophy, Home, Users, Calendar, BookOpen } from "lucide-react"
+import Image from "next/image"
+import { Menu, X, Home, Users, Calendar, BookOpen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
   { href: "/#inicio", label: "Inicio", icon: Home },
-  { href: "/#noticias", label: "Noticias", icon: Users },
+  { href: "/#equipo", label: "Equipo", icon: Users },
   { href: "/#calendario", label: "Calendario", icon: Calendar },
   { href: "/#plantilla", label: "Plantilla", icon: Users },
   { href: "/reglamento", label: "Reglamento", icon: BookOpen },
@@ -20,9 +21,14 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary">
-            <Trophy className="h-5 w-5 text-primary-foreground" />
-          </div>
+          <Image
+            src="/images/voy_a_cambiar.png"
+            alt="Escudo de Voy A Cambiar FC"
+            width={48}
+            height={48}
+            className="h-12 w-12 object-contain"
+            priority
+          />
           <span className="font-[family-name:var(--font-bebas)] text-xl tracking-wide text-foreground">
             VOY A CAMBIAR FC
           </span>

@@ -29,23 +29,23 @@ export function Results() {
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-center gap-4">
               <span className="font-[family-name:var(--font-bebas)] text-6xl font-bold text-primary-foreground sm:text-8xl">
-                2
+                4
               </span>
               <span className="font-[family-name:var(--font-bebas)] text-4xl text-primary-foreground/50 sm:text-6xl">
                 -
               </span>
               <span className="font-[family-name:var(--font-bebas)] text-6xl font-bold text-primary-foreground sm:text-8xl">
-                2
+                1
               </span>
             </div>
             <div className="flex items-center gap-4 text-sm text-primary-foreground/70">
               <div className="flex items-center gap-1">
                 <Calendar className="h-4 w-4" />
-                <span>04 Marzo 2026</span>
+                <span>28 Feb 2026</span>
               </div>
               <div className="flex items-center gap-1">
                 <MapPin className="h-4 w-4" />
-                <span>Canchas La Araucana</span>
+                <span>Campo Municipal</span>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ export function Results() {
             </div>
             <div className="text-center">
               <h3 className="font-[family-name:var(--font-bebas)] text-xl font-bold text-primary-foreground sm:text-2xl">
-                LA ESQUINA
+                REAL UNIDOS
               </h3>
               <p className="text-sm text-primary-foreground/70">Visitante</p>
             </div>
@@ -71,15 +71,16 @@ export function Results() {
           <div className="text-center">
             <p className="text-sm text-primary-foreground/70">Goleadores</p>
             <div className="mt-2 space-y-1">
-              <p className="text-primary-foreground">Jarol Catalan</p>
-              <p className="text-primary-foreground">Oliver Jara</p>
+              <p className="text-primary-foreground">García 12&apos;, 45&apos;</p>
+              <p className="text-primary-foreground">Martínez 67&apos;</p>
+              <p className="text-primary-foreground">López 89&apos;</p>
             </div>
           </div>
           <div className="hidden h-16 w-px bg-primary-foreground/20 sm:block" />
           <div className="text-center">
             <p className="text-sm text-primary-foreground/70">MVP del Partido</p>
             <p className="mt-2 font-[family-name:var(--font-bebas)] text-xl font-bold text-primary-foreground">
-              Julio Castillo
+              Carlos García
             </p>
           </div>
         </div>

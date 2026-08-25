@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import { CalendarPlus } from "lucide-react"
 
 export function Hero() {
@@ -14,9 +15,19 @@ export function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
+          <div className="mb-8 flex h-36 w-36 items-center justify-center rounded-full bg-background/95 p-3 shadow-2xl ring-4 ring-background/20 sm:h-44 sm:w-44">
+            <Image
+              src="/images/voy_a_cambiar.png"
+              alt="Escudo de Voy A Cambiar FC"
+              width={176}
+              height={176}
+              className="h-full w-full object-contain"
+              priority
+            />
+          </div>
           <p className="mb-4 inline-block rounded-full bg-background/10 px-4 py-1 text-sm font-medium text-primary-foreground backdrop-blur">
-            Temporada 2026
+            Temporada 2025-2026
           </p>
           <h1 className="text-balance font-[family-name:var(--font-bebas)] text-5xl tracking-wide text-primary-foreground sm:text-6xl lg:text-7xl xl:text-8xl">
             VOY A CAMBIAR FC
