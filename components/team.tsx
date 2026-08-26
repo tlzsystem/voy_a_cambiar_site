@@ -9,7 +9,7 @@ import players from "@/data/players.json"
 
 type Position = "ALL" | "POR" | "DEF" | "MED" | "DEL"
 const positions: { value: Position; label: string }[] = [{ value: "ALL", label: "Todos" }, { value: "POR", label: "Porteros" }, { value: "DEF", label: "Defensas" }, { value: "MED", label: "Mediocampistas" }, { value: "DEL", label: "Delanteros" }]
-const positionLabels: Record<Exclude<Position, "ALL">, string> = { POR: "Porteros", DEF: "Defensas", MED: "Mediocampistas", DEL: "Delanteros" }
+const positionLabels: Record<Exclude<Position, "ALL">, string> = { POR: "Portero", DEF: "Defensa", MED: "Mediocampista", DEL: "Delantero" }
 
 type PlayerWithImage = (typeof players)[number] & { image?: string }
 
