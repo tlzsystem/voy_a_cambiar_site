@@ -1,14 +1,93 @@
 [
-  {"id":1,"name":"Juan Pérez","number":1,"position":"porteros","role":"Portero"},
-  {"id":2,"name":"Miguel Sánchez","number":13,"position":"porteros","role":"Portero"},
-  {"id":3,"name":"David López","number":2,"position":"defensas","role":"Lateral Derecho"},
-  {"id":4,"name":"Roberto Díaz","number":3,"position":"defensas","role":"Central"},
-  {"id":5,"name":"Fernando Gil","number":4,"position":"defensas","role":"Central"},
-  {"id":6,"name":"Pablo Ruiz","number":5,"position":"defensas","role":"Lateral Izquierdo"},
-  {"id":7,"name":"Andrés Torres","number":6,"position":"centrocampistas","role":"Mediocentro"},
-  {"id":8,"name":"Luis Moreno","number":8,"position":"centrocampistas","role":"Mediocentro"},
-  {"id":9,"name":"Sergio Núñez","number":10,"position":"centrocampistas","role":"Mediapunta"},
-  {"id":10,"name":"Carlos García","number":7,"position":"delanteros","role":"Extremo Derecho"},
-  {"id":11,"name":"Javier Martínez","number":9,"position":"delanteros","role":"Delantero Centro"},
-  {"id":12,"name":"Alejandro Vega","number":11,"position":"delanteros","role":"Extremo Izquierdo"}
+  {
+    "id": 2,
+    "name": "Sebastián Sanhueza",
+    "position": "POR",
+    "number": 1,
+    "image": null
+  },
+  {
+    "id": 12,
+    "name": "Diego Cortez",
+    "position": "DEL",
+    "number": 2,
+    "image": null
+  },
+  {
+    "id": 1,
+    "name": "Samuel Toloza",
+    "position": "DEF",
+    "number": 4,
+    "image": null
+  },
+  {
+    "id": 13,
+    "name": "Felipe Escobar",
+    "position": "DEF",
+    "number": 6,
+    "image": null
+  },
+  {
+    "id": 11,
+    "name": "Juan Carlos De la Fuente",
+    "position": "MED",
+    "number": 7,
+    "image": null
+  },
+  {
+    "id": 8,
+    "name": "Victor Troncoso",
+    "position": "MED",
+    "number": 8,
+    "image": null
+  },
+  {
+    "id": 9,
+    "name": "Jeremy Garrido",
+    "position": "DEL",
+    "number": 9,
+    "image": null
+  },
+  {
+    "id": 5,
+    "name": "Cristian Diaz",
+    "position": "DEL",
+    "number": 10,
+    "image": null
+  },
+  {
+    "id": 3,
+    "name": "Francisco Javier Román",
+    "position": "DEL",
+    "number": 17,
+    "image": null
+  },
+  {
+    "id": 6,
+    "name": "Oliver Jara",
+    "position": "DEF",
+    "number": 20,
+    "image": null
+  },
+  {
+    "id": 7,
+    "name": "Jarol Catalán",
+    "position": "DEL",
+    "number": 23,
+    "image": null
+  },
+  {
+    "id": 10,
+    "name": "Julio Castillo",
+    "position": "DEL",
+    "number": 26,
+    "image": null
+  },
+  {
+    "id": 4,
+    "name": "Gabriel Tapia",
+    "position": "MED",
+    "number": 77,
+    "image": null
+  }
 ]
