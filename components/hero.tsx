@@ -37,12 +37,9 @@ export function Hero() {
             Somos más que un equipo. Somos una familia unida por la pasión al fútbol y el espíritu deportivo.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Button
-              size="lg"
-              className="bg-background text-primary hover:bg-background/90"
-            >
-              <CalendarPlus className="mr-2 h-4 w-4" />
+            <Button asChild size="lg" className="bg-background text-primary hover:bg-background/90">
               <Link href="https://www.instagram.com/voy_a_cambiar_f.c/" target="_blank" rel="noopener noreferrer">
+                <CalendarPlus className="mr-2 h-4 w-4" />
                 Agendar Amistoso
               </Link>
             </Button>

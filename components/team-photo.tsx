@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function TeamPhoto() {
   return (
-    <section className="py-16 sm:py-24">
+    <section id="equipo" className="py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <p className="text-sm font-semibold uppercase tracking-wider text-primary">

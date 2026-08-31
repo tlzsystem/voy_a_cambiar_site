@@ -45,8 +45,14 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Agendar Amistoso
+          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <Link
+              href="https://www.instagram.com/voy_a_cambiar_f.c/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Agendar Amistoso
+            </Link>
           </Button>
         </nav>
 
@@ -78,8 +84,14 @@ export function Navbar() {
                 </Link>
               )
             })}
-            <Button className="mt-2 w-full bg-primary text-primary-foreground hover:bg-primary/90">
-              Agendar Amistoso
+            <Button asChild className="mt-2 w-full bg-primary text-primary-foreground hover:bg-primary/90">
+              <Link
+                href="https://www.instagram.com/voy_a_cambiar_f.c/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar Amistoso
+              </Link>
             </Button>
           </nav>
         </div>
