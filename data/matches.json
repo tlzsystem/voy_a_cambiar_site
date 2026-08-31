@@ -1,7 +1,14 @@
 [
-  {"id":1,"team_a":"Voy A Cambiar FC","team_a_logo":"/images/voy_a_cambiar.png","team_b":"Deportivo Luna","team_b_logo":"/images/voy_a_cambiar.png","date":"2026-08-08 18:00:00","location":"Campo Municipal","score_team_a":2,"score_team_b":1,"status":"completed"},
-  {"id":2,"team_a":"Atlético Norte","team_a_logo":"/images/voy_a_cambiar.png","team_b":"Voy A Cambiar FC","team_b_logo":"/images/voy_a_cambiar.png","date":"2026-08-16 16:30:00","location":"Estadio Norte","score_team_a":0,"score_team_b":0,"status":"scheduled"},
-  {"id":3,"team_a":"Voy A Cambiar FC","team_a_logo":"/images/voy_a_cambiar.png","team_b":"FC Victoria","team_b_logo":"/images/voy_a_cambiar.png","date":"2026-08-24 18:00:00","location":"Campo Municipal","score_team_a":0,"score_team_b":0,"status":"scheduled"},
-  {"id":4,"team_a":"Racing Club","team_a_logo":"/images/voy_a_cambiar.png","team_b":"Voy A Cambiar FC","team_b_logo":"/images/voy_a_cambiar.png","date":"2026-08-30 17:00:00","location":"Campo Racing","score_team_a":0,"score_team_b":0,"status":"scheduled"},
-  {"id":5,"team_a":"Voy A Cambiar FC","team_a_logo":"/images/voy_a_cambiar.png","team_b":"Unidos FC","team_b_logo":"/images/voy_a_cambiar.png","date":"2026-09-05 18:00:00","location":"Campo Municipal","score_team_a":0,"score_team_b":0,"status":"scheduled"}
+  {
+    "id": 1,
+    "team_a": "Voy A Cambiar FC",
+    "team_b": "Illuminati FC",
+    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
+    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/1000318511_gxqord",
+    "date": "2026-08-28T21:00:00+00:00",
+    "location": "Complejo Tercer Tiempo",
+    "score_team_a": 8,
+    "score_team_b": 9,
+    "status": "completed"
+  }
 ]
