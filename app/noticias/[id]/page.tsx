@@ -59,11 +59,8 @@ export default async function NewsDetailPage({ params }: PageProps) {
         </div>
 
         <div className="prose prose-neutral mt-10 max-w-none text-foreground">
-          <p className="text-base leading-8">
-            {item.excerpt} En Voy A Cambiar FC seguimos trabajando juntos, dentro y fuera del campo, para crecer como equipo y construir nuestra propia historia.
-          </p>
-          <p className="text-base leading-8">
-            Gracias a toda la afición por acompañarnos en cada entrenamiento, partido y actividad. Permaneced atentos a nuestros canales oficiales para conocer las próximas novedades del club.
+          <p className="text-base leading-8 whitespace-pre-line">
+            {item.content}
           </p>
         </div>
       </div>
