@@ -12,11 +12,11 @@ type PageProps = {
 }
 
 export function generateStaticParams() {
-  return news.map((item) => ({ id: item.id }))
+  return news.map((item) => ({ id: item.slug }))
 }
 
 function getNewsItem(id: string): NewsItem | undefined {
-  return news.find((item) => item.id === id)
+  return news.find((item) => item.slug === id)
 }
 
 export async function generateMetadata({ params }: PageProps) {
