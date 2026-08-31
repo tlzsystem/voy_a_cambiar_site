@@ -91,7 +91,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@voyacambiarfc/"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-background/10 transition-colors hover:bg-primary"
                 aria-label="TikTok"
               >

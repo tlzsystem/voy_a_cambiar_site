@@ -42,7 +42,9 @@ export function Hero() {
               className="bg-background text-primary hover:bg-background/90"
             >
               <CalendarPlus className="mr-2 h-4 w-4" />
-              Agendar Amistoso
+              <Link href="https://www.instagram.com/voy_a_cambiar_f.c/" target="_blank" rel="noopener noreferrer">
+                Agendar Amistoso
+              </Link>
             </Button>
             <Button
               asChild
