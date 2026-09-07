@@ -21,6 +21,13 @@
     "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/samuel_toloza_wqibqg"
   },
   {
+    "id": 15,
+    "name": "Nicolás Leal",
+    "position": "MED",
+    "number": 5,
+    "image": null
+  },
+  {
     "id": 13,
     "name": "Felipe Escobar",
     "position": "DEF",
@@ -54,6 +61,13 @@
     "position": "DEL",
     "number": 10,
     "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/cristian_diaz_o441lm"
+  },
+  {
+    "id": 16,
+    "name": "Jazmani Lascano",
+    "position": "MED",
+    "number": 13,
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/1000323174_isyhmw"
   },
   {
     "id": 14,
