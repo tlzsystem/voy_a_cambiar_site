@@ -1,5 +1,15 @@
 [
   {
+    "id": 2,
+    "title": "¡Se viene el Torneo Relámpago de Octubre!",
+    "slug": "torneo-relampago-octubre-voy-a-cambiar-fc",
+    "excerpt": "El club ya trabaja en la organización de su próximo gran evento deportivo para el mes de octubre. Se viene un Torneo Relámpago con alta competencia, gran ambiente y muchas sorpresas. ¡Atentos a nuestras redes porque pronto abrimos inscripciones!",
+    "content": "La pelota no se detiene y en Voy A Cambiar FC ya estamos proyectando el próximo gran hito de nuestro calendario. Con el objetivo de reunir a los mejores exponentes del fútbol amateur de la zona y seguir fortaleciendo la comunidad deportiva, la directiva y el plantel ya se encuentran trabajando con todo en la organización de un Torneo Relámpago agendado para el mes de octubre.\r\n\r\nAunque aún nos guardamos varios detalles bajo la manga, podemos adelantar que será una jornada intensa de puro fútbol, donde la competitividad, la camaradería y el buen ambiente característico de nuestro club serán los verdaderos protagonistas. Habrá partidos de alto impacto, premios para los destacados y, por supuesto, un espacio pensado para compartir entre jugadores, hinchas y familias.\r\n\r\nEn los próximos días estaremos entregando la información oficial sobre las bases de competición, la sede, los horarios y el proceso de inscripción para los equipos interesados.\r\n\r\nLes recomendamos a todos mantener la sintonía con nuestros canales oficiales y estar muy atentos, porque los cupos serán limitados y no querrán quedarse fuera de esta gran fiesta futbolera. ¡Preparen los tapones, que en octubre la cancha promete arder!",
+    "category": "Evento",
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/news/pronto_torneo_relampago_voyacambiar_srbfgy",
+    "date": "2026-09-01"
+  },
+  {
     "id": 1,
     "title": "Jornada de asado Voy A Cambiar",
     "slug": "jornada-asado-voy-a-cambiar",
