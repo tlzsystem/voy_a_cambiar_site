@@ -34,20 +34,9 @@ export function TeamPhoto() {
                 <h3 className="font-[family-name:var(--font-bebas)] text-2xl sm:text-3xl text-primary-foreground tracking-wide">
                   Voy A Cambiar FC
                 </h3>
-                <p className="text-primary-foreground/80 text-sm sm:text-base">
-                  Liga Amateur - Division de Honor
-                </p>
+                
               </div>
-              <div className="flex gap-6">
-                <div className="text-center">
-                  <span className="font-[family-name:var(--font-bebas)] text-3xl sm:text-4xl text-primary-foreground">25</span>
-                  <p className="text-primary-foreground/70 text-xs sm:text-sm">Jugadores</p>
-                </div>
-                <div className="text-center">
-                  <span className="font-[family-name:var(--font-bebas)] text-3xl sm:text-4xl text-primary-foreground">4</span>
-                  <p className="text-primary-foreground/70 text-xs sm:text-sm">Staff</p>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
