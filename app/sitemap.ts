@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const newsRoutes: MetadataRoute.Sitemap = news.map((article) => ({
-    url: `${siteUrl}/noticias/${article.id}`,
+    url: `${siteUrl}/noticias/${article.slug}`,
     lastModified: article.date,
     changeFrequency: 'monthly',
     priority: 0.7,
