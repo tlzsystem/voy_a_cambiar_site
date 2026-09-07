@@ -11,63 +11,70 @@
     "name": "Diego Cortez",
     "position": "DEF",
     "number": 2,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/diego_cortes_bzqhzv"
   },
   {
     "id": 1,
     "name": "Samuel Toloza",
     "position": "DEF",
     "number": 4,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/samuel_toloza_wqibqg"
   },
   {
     "id": 13,
     "name": "Felipe Escobar",
     "position": "DEF",
     "number": 6,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/felipe_escobar_y60jje"
   },
   {
     "id": 11,
     "name": "Juan Carlos De la Fuente",
     "position": "MED",
     "number": 7,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/juan_carlos_delafuente_tcm2o7"
   },
   {
     "id": 8,
     "name": "Victor Troncoso",
     "position": "MED",
     "number": 8,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/victor_troncoso_mtwfvo"
   },
   {
     "id": 9,
     "name": "Jeremy Garrido",
     "position": "DEL",
     "number": 9,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/jeremy_garrido_emtvde"
   },
   {
     "id": 5,
     "name": "Cristian Diaz",
     "position": "DEL",
     "number": 10,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/cristian_diaz_o441lm"
+  },
+  {
+    "id": 14,
+    "name": "Vicente Perez",
+    "position": "DEF",
+    "number": 16,
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/vicente_perez_ssmrv7"
   },
   {
     "id": 3,
-    "name": "Francisco Javier Román",
+    "name": "Francisco Román",
     "position": "DEL",
     "number": 17,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/francisco_roman_w2rdyo"
   },
   {
     "id": 6,
     "name": "Oliver Jara",
     "position": "DEF",
     "number": 20,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/oliver_jara_lpist4"
   },
   {
     "id": 7,
@@ -81,13 +88,13 @@
     "name": "Julio Castillo",
     "position": "DEL",
     "number": 26,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/julio_castillo_d8rxjg"
   },
   {
     "id": 4,
     "name": "Gabriel Tapia",
     "position": "MED",
     "number": 77,
-    "image": null
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/gabriel_tapia_os2ysa"
   }
 ]
