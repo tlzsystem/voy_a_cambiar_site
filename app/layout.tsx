@@ -17,9 +17,36 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: 'Voy A Cambiar FC | Club de Fútbol Amateur',
-  description: 'Bienvenido al sitio oficial del Voy A Cambiar FC. Noticias, calendario de partidos, resultados y plantilla del equipo.',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
+  title: 'Voy A Cambiar FC | Fútbol Amateur en Puente Alto',
+  description: 'Sitio oficial de Voy A Cambiar FC, equipo de fútbol 7 y futbolito amateur de Puente Alto. Noticias, partidos, resultados, calendario y plantilla.',
+  keywords: [
+    'fútbol amateur',
+    'equipo fútbol 7',
+    'futbolito',
+    'Puente Alto',
+    'fútbol amateur Puente Alto',
+    'club de fútbol 7',
+    'Voy A Cambiar FC',
+  ],
   generator: 'v0.app',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'es_CL',
+    title: 'Voy A Cambiar FC | Fútbol Amateur en Puente Alto',
+    description: 'Equipo de fútbol 7 y futbolito amateur de Puente Alto.',
+    siteName: 'Voy A Cambiar FC',
+    images: [{ url: '/images/voy_a_cambiar.png', alt: 'Escudo de Voy A Cambiar FC' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Voy A Cambiar FC | Fútbol Amateur en Puente Alto',
+    description: 'Equipo de fútbol 7 y futbolito amateur de Puente Alto.',
+    images: ['/images/voy_a_cambiar.png'],
+  },
   icons: {
     icon: [
       {
