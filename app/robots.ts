@@ -6,11 +6,21 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: ['/api/'],
-    },
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/api/'],
+      },
+      {
+        userAgent: ['Google-Extended', 'GPTBot', 'ClaudeBot'],
+        allow: '/',
+      },
+      {
+        userAgent: ['CCBot', 'Bytespider'],
+        disallow: '/',
+      },
+    ],
     sitemap: `${siteUrl}/sitemap.xml`,
   }
 }
