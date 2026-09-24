@@ -55,9 +55,9 @@
     "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
     "date": "2026-09-23T22:00:00+00:00",
     "location": "Complejo Tercer Tiempo",
-    "score_team_a": 0,
-    "score_team_b": 0,
-    "status": "scheduled"
+    "score_team_a": 4,
+    "score_team_b": 13,
+    "status": "completed"
   },
   {
     "id": 6,
