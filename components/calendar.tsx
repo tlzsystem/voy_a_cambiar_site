@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import { MapPin, Trophy } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
@@ -10,10 +11,30 @@ import { AddToCalendarButton } from "add-to-calendar-button-react"
 type Match = (typeof matches)[number]
 
 function formatDate(value: string) {
-  return new Date(value.replace(" ", "T"))
+  const cleanIso = value.replace(/(\+00:00|Z)$/, "")
+  return new Date(cleanIso)
+}
+
+function getLocalDateString(date: Date) {
+  const year = date.getFullYear()
+  const month = String(date.getMonth() + 1).padStart(2, "0")
+  const day = String(date.getDate()).padStart(2, "0")
+  return `${year}-${month}-${day}`
+}
+
+function getLocalTimeString(date: Date) {
+  const hours = String(date.getHours()).padStart(2, "0")
+  const minutes = String(date.getMinutes()).padStart(2, "0")
+  return `${hours}:${minutes}`
 }
 
 export function CalendarSection() {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   const now = new Date()
   const currentMatches = matches.filter((match) => {
     const date = formatDate(match.date)
@@ -34,27 +55,26 @@ export function CalendarSection() {
           <div className="mx-auto flex max-w-4xl flex-col gap-4">
             {currentMatches.map((match: Match) => {
               const date = formatDate(match.date)
-              const startDateStr = date.toISOString().split("T")[0]
-              const startTimeStr = date.toTimeString().slice(0, 5)
+
+              const startDateStr = getLocalDateString(date)
+              const startTimeStr = getLocalTimeString(date)
               
               const endDateObj = new Date(date.getTime() + 1 * 60 * 60 * 1000)
-              const endDateStr = endDateObj.toISOString().split("T")[0]
-              const endTimeStr = endDateObj.toTimeString().slice(0, 5)
+              const endDateStr = getLocalDateString(endDateObj)
+              const endTimeStr = getLocalTimeString(endDateObj)
 
               return (
                 <Card key={match.id} className="border-border bg-card">
-                  {/* Cambiamos el Grid a 2 columnas principales en desktop */}
                   <div className="grid gap-5 p-5 sm:grid-cols-[104px_1fr] sm:items-center sm:gap-6 sm:p-6">
                     
-                    {/* Columna 1: Fecha */}
+                    {/* Columna Fecha */}
                     <div className="flex items-center gap-3 sm:flex-col sm:items-start sm:gap-1">
                       <div className="flex h-14 w-14 shrink-0 flex-col items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                        <span className="text-xs uppercase">{date.toLocaleDateString("es-ES", { month: "short" })}</span>
+                        <span className="text-xs uppercase">{date.toLocaleDateString("es-CL", { month: "short" })}</span>
                         <span className="font-[family-name:var(--font-bebas)] text-2xl leading-none">{date.getDate()}</span>
                       </div>
                     </div>
 
-                    {/* Columna 2: Equipos, Resultado, Ubicación y Botón abajo */}
                     <div className="min-w-0 text-center">
                       <div className="flex min-h-10 items-center justify-center gap-3 sm:gap-5">
                         <span className="flex min-w-0 items-center justify-end gap-2 text-right">
@@ -76,22 +96,19 @@ export function CalendarSection() {
                         </span>
                       </div>
 
-                      {/* Ubicación e Hora (agrupado sutilmente) */}
                       <div className="mt-2 flex items-center justify-center gap-4 text-xs text-muted-foreground">
                         <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 shrink-0" />{match.location}</span>
                         <span>•</span>
-                        <span>{date.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" })} hrs</span>
+                        <span>{startTimeStr} hrs</span>
                       </div>
 
-                      {/* Sección Estado / Resultado */}
                       <div className="mt-3 border-t border-border pt-3">
                         <span className={`font-[family-name:var(--font-bebas)] text-base tracking-wider ${match.status === "completed" ? "text-primary" : "text-muted-foreground"}`}>
                           {match.status === "completed" ? `RESULTADO: ${match.score_team_a} - ${match.score_team_b}` : "POR JUGAR"}
                         </span>
                       </div>
 
-                   
-                      {match.status !== "completed" && (
+                      {mounted && match.status !== "completed" && (
                         <div className="mt-4 flex justify-center">
                           <AddToCalendarButton
                             name={`${match.team_a} vs ${match.team_b}`}
