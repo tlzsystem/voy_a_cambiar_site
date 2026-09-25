@@ -10,113 +10,129 @@ import {
   Flag,
   CircleDot,
   HandMetal,
-  UserX
+  Landmark,
+  PiggyBank,
+  NotebookPen,
+  UserPen,
+  UserRoundX,
+  HandCoins,
+  CircleOff
 } from "lucide-react"
 
 export const metadata = {
   title: "Reglamento | Voy A Cambiar FC",
-  description: "Reglamento oficial de partidos del Voy A Cambiar FC",
+  description: "Reglamento interno oficial Voy A Cambiar FC",
 }
 
 const reglamento = [
   {
-    titulo: "Duración del Partido",
+    titulo: "Mensualidad",
+    icon: PiggyBank,
+    reglas: [
+      "Para pertenecer al club, cada jugador debe abonar la mensualidad correspondiente.",
+      "El valor de la mensualidad será de $3.000 pesos",
+      "El pago de la mensualidad debe realizarse antes del día 5 de cada mes.",
+      "La mensualidad no es reembolsable. El no pago de la misma puede derivar en la suspensión de la participación del jugador en los partidos.",
+    ],
+  },
+  {
+    titulo: "Pago de Partidos",
+    icon: HandCoins,
+    reglas: [
+      "El pago de los partidos es obligatorio para todos los jugadores inscritos.",
+      "El valor de cada partido será anunciado con anticipación.",
+      "El pago se debe realizar antes del inicio del partido y debe hacerse exclusivamente por transferencia bancaria.",
+      "Para casos especiales, cada jugador deberá acercarse con los delegados del equipo.",
+    ],
+  },
+  {
+    titulo: "Nomina para partidos",
+    icon: NotebookPen,
+    reglas: [
+      "La encuesta de nomina para cada partido se realizará a través del grupo de WhatsApp Oficial.",
+      "La nomina se cerrará a las 21.00 horas del día anterior al partido.",
+      "No podrá jugar quien no haya confirmado su asistencia, ni quien no haya pagado el valor del partido.",
+      "El pago de los partidos no son reembolsables.",
+    ],
+  },
+  {
+    titulo: "Puntualidad",
     icon: Clock,
     reglas: [
-      "El partido consta de dos tiempos de 45 minutos cada uno.",
-      "El árbitro añadirá tiempo adicional por interrupciones y sustituciones.",
-      "El descanso entre tiempos no excederá los 15 minutos.",
-      "En caso de empate en eliminatorias, se jugarán dos tiempos extra de 15 minutos.",
+      "Se exige puntualidad en la llegada a los partidos. Cada jugador debe presentarse a la hora indicada en la convocatoria.",
+      "Cualquier retrado implica posible perdida de titularidad y minutos de juego.",
+      "Retrasos reiterados pueden resultar en sanciones.",
+      "Cualquier retraso debe ser justificado.",
     ],
   },
   {
-    titulo: "Jugadores",
+    titulo: "Inasistencias",
+    icon: UserRoundX,
+    reglas: [
+      "Se considera inasistencia cuando un jugador no se presenta a un partido cuando ya había confirmado su asistencia.",
+      "Una inasistencia no justificada se considera una falta grave.",
+      "Las inasistencias reiteradas pueden resultar en sanciones.",
+      "Las inasistencias debe ser informadas con anticipación.",
+    ],
+  },
+  {
+    titulo: "Director Técnico",
+    icon: UserPen,
+    reglas: [
+      "En cada partido se designará un jugador que hará el rol de director técnico.",
+      "El director técnico será responsable de coordinar la estrategia del equipo durante el partido.",
+      "El director técnico es el único autorizado a realizar las sustituciones durante el partido",
+      "Los jugadores deben respetar las decisiones del director técnico y seguir sus indicaciones durante el partido.",
+    ],
+  },
+  {
+    titulo: "Compromiso y Respeto",
     icon: Users,
     reglas: [
-      "Cada equipo debe tener un mínimo de 7 jugadores para iniciar el partido.",
-      "El máximo de jugadores en cancha es de 11, incluyendo al portero.",
-      "Se permiten hasta 5 sustituciones por equipo durante el partido.",
-      "Un jugador sustituido no puede volver a ingresar al campo de juego.",
+      "Se espera la mayor participación posible de todos los miembros a asistir a la mayoría de los partidos.",
+      "La falta prolongada a partidos puede incurrir en evaluación de permanencia en el equipo.",
+      "Ningún jugador podrá exigir minutos ni titularidad, se prioriza el compromiso y respeto.",
+      "Se exige el respeto mutuo entre todos los jugadores y el cumplimiento de las reglas del juego.",
     ],
   },
   {
-    titulo: "Equipamiento",
-    icon: Shield,
-    reglas: [
-      "Los jugadores deben usar camiseta, shorts, medias, espinilleras y calzado adecuado.",
-      "El portero debe usar colores que lo distingan de los demás jugadores y árbitros.",
-      "No se permite el uso de joyas, relojes o accesorios peligrosos.",
-      "Las espinilleras son obligatorias y deben estar cubiertas por las medias.",
-    ],
-  },
-  {
-    titulo: "Inicio y Reanudación",
-    icon: CircleDot,
-    reglas: [
-      "El partido inicia con un saque desde el centro del campo.",
-      "Después de cada gol, el equipo que recibió el gol realiza el saque inicial.",
-      "Los jugadores deben estar en su propia mitad del campo en el saque inicial.",
-      "El balón está en juego cuando es pateado y se mueve hacia adelante.",
-    ],
-  },
-  {
-    titulo: "Gol",
-    icon: Target,
-    reglas: [
-      "Se marca gol cuando el balón cruza completamente la línea de meta entre los postes.",
-      "El equipo con más goles al final del partido es el ganador.",
-      "Un gol puede ser anotado directamente de un saque de esquina.",
-      "No se puede anotar gol directamente de un saque lateral.",
-    ],
-  },
-  {
-    titulo: "Fuera de Juego",
-    icon: Flag,
-    reglas: [
-      "Un jugador está en fuera de juego si está más cerca de la línea de meta que el balón y el penúltimo defensor.",
-      "No hay fuera de juego si el jugador está en su propia mitad del campo.",
-      "No hay fuera de juego en saques de banda, esquina o de meta.",
-      "Estar en posición de fuera de juego no es infracción en sí misma.",
-    ],
-  },
-  {
-    titulo: "Faltas y Conducta Antideportiva",
+    titulo: "Conducta",
     icon: AlertTriangle,
     reglas: [
-      "Patear, zancadillear, empujar o sujetar a un adversario es falta.",
-      "Tocar el balón con la mano deliberadamente es falta (excepto el portero en su área).",
-      "El juego brusco grave se sanciona con tarjeta roja directa.",
-      "Las protestas excesivas pueden ser sancionadas con tarjeta amarilla.",
+      "Se exige jugar con integridad, intensidad y respeto. Se prioriza el juego limpio y la deportividad.",
+      "Se exige mantener dominio emocional durante los partidos.",
+      "Se requiere aceptar toda suplencia, cambios y decisiones sin generar conflictos.",
+      "Se deben evitar reclamos, gestor y actitudes antideportivas que afecten al grupo.",
     ],
   },
   {
-    titulo: "Tarjetas",
-    icon: UserX,
+    titulo: "Prohibiciones",
+    icon: CircleOff,
     reglas: [
-      "Tarjeta amarilla: amonestación por conducta antideportiva o infracciones repetidas.",
-      "Dos tarjetas amarillas equivalen a una tarjeta roja.",
-      "Tarjeta roja: expulsión inmediata del partido.",
-      "Un jugador expulsado no puede ser sustituido.",
+      "Faltar el respeto a cualquier integrante del equipo o árbitro.",
+      "Generar conflictos, peleas, amenazas o altercados durante el partido.",
+      "Desobedecer las decisiones del árbitro o del director técnico.",
+      "Abandonar el campo de juego durante el partido.",
     ],
   },
   {
-    titulo: "Tiros Libres",
-    icon: HandMetal,
+    titulo: "Faltas Graves",
+    icon: Flag,
     reglas: [
-      "Tiro libre directo: se puede anotar gol directamente.",
-      "Tiro libre indirecto: el balón debe tocar a otro jugador antes de entrar a la meta.",
-      "La barrera debe estar a mínimo 9.15 metros del balón.",
-      "El balón debe estar inmóvil antes de ejecutar el tiro.",
+      "Generar conflictos internos, peleas, comentarios o actidudes constantes que rompan la armonia del equipo.",
+      "Amenazas, insultos, agresiones fisicas y cualquier otra conducta que afecte la integridad del equipo.",
+      "Robo, daño intencional a material o pertenencias.",
+      "Cualquier falta y sanción puede resultar en explusión del jugador al equipo.",
     ],
   },
   {
-    titulo: "Sustituciones",
-    icon: Repeat,
+    titulo: "Rendición de Cuentas",
+    icon: Landmark,
     reglas: [
-      "Las sustituciones solo pueden realizarse cuando el balón está fuera de juego.",
-      "El jugador que sale debe hacerlo por la línea media del campo.",
-      "El sustituto solo puede ingresar con autorización del árbitro.",
-      "El tiempo de juego no se detiene durante las sustituciones regulares.",
+      "Cada mes se realizará la rendición de cuentas con los jugadores.",
+      "Cada jugador tiene derecho a consultar por el estado de las finanzas del equipo.",
+      "Para situaciones especiales relacionadas con dineros, cada jugador tiene derecho a conversar directamente con los encargados.",
+      "Las transacciones financieras serán transparentes y serán informadas a todos los jugadores.",
     ],
   },
 ]
@@ -176,7 +192,6 @@ export default function ReglamentoPage() {
           {/* Footer Note */}
           <div className="mt-12 rounded-xl border border-border bg-muted/50 p-6 text-center">
             <p className="text-sm text-muted-foreground">
-              Este reglamento está basado en las reglas oficiales de la FIFA y adaptado para partidos amistosos. 
               El árbitro tiene la última palabra en todas las decisiones durante el partido.
             </p>
           </div>
