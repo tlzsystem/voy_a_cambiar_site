@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import { ArrowLeft, Calendar } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import news from "@/data/news.json"
+import ReactMarkdown from 'react-markdown';
 
 type NewsItem = (typeof news)[number]
 
@@ -60,7 +61,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
 
         <div className="prose prose-neutral mt-10 max-w-none text-foreground">
           <p className="text-base leading-8 whitespace-pre-line">
-            {item.content}
+             <ReactMarkdown>{item.content}</ReactMarkdown>
           </p>
         </div>
       </div>
