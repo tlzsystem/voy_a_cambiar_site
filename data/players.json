@@ -63,6 +63,13 @@
     "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/cristian_diaz_o441lm"
   },
   {
+    "id": 17,
+    "name": "Nicolás Techera",
+    "position": "DEL",
+    "number": 11,
+    "image": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/players/nicolas_techera_aar9zi"
+  },
+  {
     "id": 16,
     "name": "Jazmani Lascano",
     "position": "MED",
