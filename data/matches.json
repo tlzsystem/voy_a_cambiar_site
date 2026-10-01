@@ -1,77 +1,5 @@
 [
   {
-    "id": 3,
-    "team_a": "Voy A Cambiar FC",
-    "team_b": "Fénix FC",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/fenix_fc_fh5wqz",
-    "date": "2026-09-02T22:30:00+00:00",
-    "location": "Espacio Futbolito",
-    "score_team_a": 6,
-    "score_team_b": 6,
-    "status": "completed"
-  },
-  {
-    "id": 4,
-    "team_a": "Voy A Cambiar FC",
-    "team_b": "Atlético Puente Alto",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/atletico_puente_alto_j26isd",
-    "date": "2026-09-04T22:30:00+00:00",
-    "location": "Espacio Futbolito",
-    "score_team_a": 11,
-    "score_team_b": 6,
-    "status": "completed"
-  },
-  {
-    "id": 8,
-    "team_a": "Voy A Cambiar FC",
-    "team_b": "Candelocos",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/1000324433_dkgnvk",
-    "date": "2026-09-09T21:20:00+00:00",
-    "location": "Espacio Futbolito",
-    "score_team_a": 15,
-    "score_team_b": 5,
-    "status": "completed"
-  },
-  {
-    "id": 5,
-    "team_a": "Voy A Cambiar FC",
-    "team_b": "Liverpussi FC",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/liverpussi_fc_wmdxmu",
-    "date": "2026-09-09T22:30:00+00:00",
-    "location": "Espacio Futbolito",
-    "score_team_a": 9,
-    "score_team_b": 4,
-    "status": "completed"
-  },
-  {
-    "id": 7,
-    "team_a": "San Lázaro",
-    "team_b": "Voy A Cambiar FC",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/san_lazaro_fc_pcr6hs",
-    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "date": "2026-09-23T22:00:00+00:00",
-    "location": "Complejo Tercer Tiempo",
-    "score_team_a": 4,
-    "score_team_b": 13,
-    "status": "completed"
-  },
-  {
-    "id": 6,
-    "team_a": "Baltilokos",
-    "team_b": "Voy A Cambiar FC",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/baltilokos_fc_yk9dll",
-    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "date": "2026-09-25T21:00:00+00:00",
-    "location": "Geo Park",
-    "score_team_a": 5,
-    "score_team_b": 8,
-    "status": "completed"
-  },
-  {
     "id": 9,
     "team_a": "Poco Serio FC",
     "team_b": "Voy A Cambiar FC",
@@ -79,8 +7,8 @@
     "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
     "date": "2026-09-30T22:00:00+00:00",
     "location": "Complejo Tercer Tiempo",
-    "score_team_a": 0,
-    "score_team_b": 0,
-    "status": "scheduled"
+    "score_team_a": 11,
+    "score_team_b": 10,
+    "status": "completed"
   }
 ]
