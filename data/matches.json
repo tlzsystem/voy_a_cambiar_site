@@ -1,14 +1,14 @@
 [
   {
-    "id": 9,
-    "team_a": "Poco Serio FC",
+    "id": 10,
+    "team_a": "Sporting Primavera FC",
     "team_b": "Voy A Cambiar FC",
-    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/poco_serio_fc_an3sqj",
+    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/sporting_primavera_cg9zee",
     "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
-    "date": "2026-09-30T22:00:00+00:00",
+    "date": "2026-10-07T22:00:00+00:00",
     "location": "Complejo Tercer Tiempo",
-    "score_team_a": 11,
-    "score_team_b": 10,
+    "score_team_a": 6,
+    "score_team_b": 23,
     "status": "completed"
   }
 ]
