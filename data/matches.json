@@ -55,9 +55,9 @@
     "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/1000324433_dkgnvk",
     "date": "2026-10-23T22:30:00+00:00",
     "location": "Espacio Futbolito",
-    "score_team_a": 0,
-    "score_team_b": 0,
-    "status": "scheduled"
+    "score_team_a": 8,
+    "score_team_b": 8,
+    "status": "completed"
   },
   {
     "id": 14,
