@@ -10,5 +10,29 @@
     "score_team_a": 7,
     "score_team_b": 10,
     "status": "completed"
+  },
+  {
+    "id": 17,
+    "team_a": "Voy A Cambiar FC",
+    "team_b": "Mamiña Boys",
+    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
+    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/mamina_boys_logo_transparente_b5cggb",
+    "date": "2026-11-11T22:00:00+00:00",
+    "location": "Complejo Tercer Tiempo",
+    "score_team_a": 15,
+    "score_team_b": 10,
+    "status": "completed"
+  },
+  {
+    "id": 18,
+    "team_a": "Voy A Cambiar FC",
+    "team_b": "Real Puente Alto",
+    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
+    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/real_puentealto_sz2x2p",
+    "date": "2026-11-13T22:30:00+00:00",
+    "location": "Espacio Futbolito",
+    "score_team_a": 0,
+    "score_team_b": 0,
+    "status": "scheduled"
   }
 ]
