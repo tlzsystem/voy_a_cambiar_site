@@ -31,6 +31,30 @@
     "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/real_puentealto_sz2x2p",
     "date": "2026-11-13T22:30:00+00:00",
     "location": "Espacio Futbolito",
+    "score_team_a": 14,
+    "score_team_b": 8,
+    "status": "completed"
+  },
+  {
+    "id": 19,
+    "team_a": "Voy A Cambiar FC",
+    "team_b": "Club Atlético Paris",
+    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
+    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/club_atletico_paris_transparente_xev9zb",
+    "date": "2026-11-18T22:00:00+00:00",
+    "location": "Complejo Tercer Tiempo",
+    "score_team_a": 10,
+    "score_team_b": 11,
+    "status": "completed"
+  },
+  {
+    "id": 20,
+    "team_a": "Voy A Cambiar FC",
+    "team_b": "Baltilokos",
+    "team_a_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/voy_a_cambiar_y10re8",
+    "team_b_logo": "https://res.cloudinary.com/z5cxwrjc/image/upload/v1/media/images/baltilokos_wfelcg",
+    "date": "2026-11-20T22:30:00+00:00",
+    "location": "Espacio Futbolito",
     "score_team_a": 0,
     "score_team_b": 0,
     "status": "scheduled"
